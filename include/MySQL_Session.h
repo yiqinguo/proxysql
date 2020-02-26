@@ -231,6 +231,7 @@ class MySQL_Session
 	Session_Regex **match_regexes;
 
 	void *ldap_ctx;
+	unsigned long mysql_tid;
 
 	MySQL_Session();
 	~MySQL_Session();
